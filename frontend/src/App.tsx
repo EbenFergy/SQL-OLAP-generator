@@ -9,7 +9,7 @@ interface queryResponseType {
   results: string;
 }
 
-function App() {
+const App = () =>{
   const [inputText, setInputText] = useState<string>('');
   const [inputRes, setInputRes] = useState<string>('');
   const [resSeverity, setResSeverity] = useState<'success' | 'error' | undefined>();
